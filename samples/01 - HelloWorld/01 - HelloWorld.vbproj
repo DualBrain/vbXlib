@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>HelloWorld</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <PublishAot>true</PublishAot>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\vbXlib\vbXlib.vbproj" />
+  </ItemGroup>
+
+</Project>
